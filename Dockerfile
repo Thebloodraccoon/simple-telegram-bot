@@ -11,5 +11,4 @@ COPY --from=build /app/target/*.jar app.jar
 
 RUN mkdir -p /app/logs
 VOLUME /app/logs
-EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]

@@ -38,3 +38,5 @@ build/
 .idea
 
 logs/
+
+.env

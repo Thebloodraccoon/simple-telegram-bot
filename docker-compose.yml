@@ -10,5 +10,5 @@ services:
     volumes:
       - ./logs:/app/logs
     environment:
-      - SPRING_PROFILES_ACTIVE=prod
-      - TZ=Europe/Kiev
+      - BOT_NAME=${BOT_NAME}
+      - BOT_TOKEN=${BOT_TOKEN}
